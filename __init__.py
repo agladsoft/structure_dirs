@@ -68,6 +68,8 @@ list_dirs: tuple = (
 
     'fts/flat_fts',
 
+    'rzhd/flat_rzhd',
+
 
     'reference/reference_container_type',
     'reference/reference_import_tracking',
