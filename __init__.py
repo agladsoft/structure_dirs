@@ -36,6 +36,8 @@ list_dirs: tuple = (
     'import/lines_nle/verim',
     'import/lines_nle/yang_ming',
     'import/lines_nle/zim',
+    'import/lines_nle/ovp',
+    'import/lines_nle/boat_link',
 
     'import/lines_nutep/admiral',
     'import/lines_nutep/akkon_lines',
@@ -64,6 +66,8 @@ list_dirs: tuple = (
     'import/lines_nutep/verim',
     'import/lines_nutep/yang_ming',
     'import/lines_nutep/zim',
+    'import/lines_nutep/ovp',
+    'import/lines_nutep/boat_link',
 
 
     'fts/flat_fts',
