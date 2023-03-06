@@ -72,7 +72,10 @@ list_dirs: tuple = (
 
     'fts/flat_fts',
 
-    'rzhd/flat_rzhd',
+    'rzhd/rzhd_ktk',
+    'rzhd/rzhd_novorossiysk',
+    'rzhd/rzhd_petersburg',
+    'rzhd/rzhd_weekly',
 
 
     'reference/reference_container_type',
