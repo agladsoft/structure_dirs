@@ -1,4 +1,4 @@
-root_directory: str = '/home/timur'
+root_directory: str = '/home/ruscon'
 
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
