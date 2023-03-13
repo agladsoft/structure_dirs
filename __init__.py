@@ -68,6 +68,7 @@ list_dirs: tuple = (
     'import/lines_nutep/zim',
     'import/lines_nutep/ovp',
     'import/lines_nutep/boat_link',
+    'import/lines_nutep/maas',
 
 
     'fts/flat_fts',
