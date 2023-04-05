@@ -38,6 +38,9 @@ list_dirs: tuple = (
     'import/lines_nle/zim',
     'import/lines_nle/ovp',
     'import/lines_nle/boat_link',
+    'import/lines_nle/maas',
+    'import/lines_nle/sinokor',
+    'import/lines_nle/xinhelu',
 
     'import/lines_nutep/admiral',
     'import/lines_nutep/akkon_lines',
@@ -69,6 +72,8 @@ list_dirs: tuple = (
     'import/lines_nutep/ovp',
     'import/lines_nutep/boat_link',
     'import/lines_nutep/maas',
+    'import/lines_nutep/sinokor',
+    'import/lines_nutep/xinhelu',
 
 
     'fts/flat_fts',
