@@ -1,4 +1,4 @@
-root_directory: str = '/home/ruscon/sambashare'
+root_directory: str = '/home/timur/sambashare'
 
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
@@ -83,7 +83,7 @@ list_dirs: tuple = (
     'rzhd/rzhd_petersburg',
     'rzhd/rzhd_weekly',
 
-
+    'reference/reference_compass',
     'reference/reference_container_type',
     'reference/reference_import_tracking',
     'reference/reference_inn',
