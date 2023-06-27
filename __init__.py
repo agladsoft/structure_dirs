@@ -77,6 +77,7 @@ list_dirs: tuple = (
 
 
     'fts/flat_fts',
+    'fts/kz_mir',
 
     'rzhd/rzhd_ktk',
     'rzhd/rzhd_novorossiysk',
