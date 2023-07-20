@@ -101,6 +101,6 @@ list_dirs: tuple = (
     'reference/reference_ship',
     'reference/reference_statistics',
     'reference/reference_tnved2',
-    'reference/reference_report_nle',
+    'reference/reference_spardeck',
     'reference/reference_morservice_all',
 )
