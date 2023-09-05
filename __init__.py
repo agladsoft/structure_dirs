@@ -1,4 +1,4 @@
-root_directory: str = '/home/timur/sambashare'
+root_directory: str = '/home/ruscon/sambashare'
 
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
