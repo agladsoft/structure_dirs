@@ -1,6 +1,5 @@
-import os
 from functools import partial
-from __init__ import list_dirs, root_directory
+from __init__ import list_dirs, root_directory, os
 
 concat_root_path: partial = partial(os.path.join, root_directory)
 make_directory: partial = partial(os.makedirs, exist_ok=True)

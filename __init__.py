@@ -1,4 +1,6 @@
-root_directory: str = '/home/ruscon/sambashare'
+import os
+
+root_directory: str = os.environ.get('LOCAL_ABSOLUTE_PATH_FILES')
 
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
