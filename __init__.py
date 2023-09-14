@@ -114,5 +114,6 @@ list_dirs: tuple = (
     'Morservice/done',
     'Morservice/json',
 
-    'auto_tracking',
+    'auto_tracking'
+
 )
