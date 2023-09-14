@@ -103,4 +103,14 @@ list_dirs: tuple = (
     'reference/reference_tnved2',
     'reference/reference_spardeck',
     'reference/reference_morservice_all',
+
+    'RabbitMQ/errors',
+    'RabbitMQ/json',
+    'RabbitMQ/msg',
+    'RabbitMQ/update',
+
+    'Morservice/done',
+    'Morservice/json',
+
+    'auto_tracking',
 )
