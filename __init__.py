@@ -3,12 +3,15 @@ root_directory: str = '/home/ruscon/sambashare'
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
     'export/export_vsk/flat_export_vsk',
+    'export/export_vsk/flat_export_vsk_tracking_update',
     'export/lines_nle/flat_export_nle',
     'export/lines_nutep/flat_export_nutep',
+    'export/lines_nutep/flat_export_nutep_tracking_update',
 
 
     'import/import_nw/flat_import_nw',
     'import/import_vsk/flat_import_vsk',
+    'import/import_vsk/flat_import_vsk_tracking_update',
     'import/lines_nle/admiral',
     'import/lines_nle/akkon_lines',
     'import/lines_nle/arkas',
@@ -53,6 +56,7 @@ list_dirs: tuple = (
     'import/lines_nutep/evergreen',
     'import/lines_nutep/fesco',
     'import/lines_nutep/flat_import_nutep',
+    'import/lines_nutep/flat_import_nutep_tracking_update',
     'import/lines_nutep/lam',
     'import/lines_nutep/lancer',
     'import/lines_nutep/lider_line',
