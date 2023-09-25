@@ -1,4 +1,6 @@
-root_directory: str = '/home/ruscon/sambashare'
+import os
+
+root_directory: str = os.environ.get('LOCAL_ABSOLUTE_PATH_FILES')
 
 list_dirs: tuple = (
     'export/export_nw/flat_export_nw',
@@ -107,4 +109,15 @@ list_dirs: tuple = (
     'reference/reference_tnved2',
     'reference/reference_spardeck',
     'reference/reference_morservice_all',
+
+    'RabbitMQ/errors',
+    'RabbitMQ/json',
+    'RabbitMQ/msg',
+    'RabbitMQ/update',
+
+    'Morservice/done',
+    'Morservice/json',
+
+    'auto_tracking'
+
 )
