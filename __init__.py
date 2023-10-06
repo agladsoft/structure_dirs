@@ -3,17 +3,17 @@ import os
 root_directory: str = os.environ.get('LOCAL_ABSOLUTE_PATH_FILES')
 
 list_dirs: tuple = (
-    'export/export_nw/flat_export_nw',
+    'export/export_nw/flat_export_nw_tracking',
     'export/export_nw/flat_export_nw_tracking_update',
-    'export/export_vsk/flat_export_vsk',
+    'export/export_vsk/flat_export_vsk_tracking',
     'export/export_vsk/flat_export_vsk_tracking_update',
     'export/lines_nle/flat_export_nle',
-    'export/lines_nutep/flat_export_nutep',
+    'export/lines_nutep/flat_export_nutep_tracking',
     'export/lines_nutep/flat_export_nutep_tracking_update',
 
 
     'import/import_nw/flat_import_nw',
-    'import/import_vsk/flat_import_vsk',
+    'import/import_vsk/flat_import_vsk_tracking',
     'import/import_vsk/flat_import_vsk_tracking_update',
     'import/lines_nle/admiral',
     'import/lines_nle/akkon_lines',
@@ -58,7 +58,7 @@ list_dirs: tuple = (
     'import/lines_nutep/economou',
     'import/lines_nutep/evergreen',
     'import/lines_nutep/fesco',
-    'import/lines_nutep/flat_import_nutep',
+    'import/lines_nutep/flat_import_nutep_tracking',
     'import/lines_nutep/flat_import_nutep_tracking_update',
     'import/lines_nutep/lam',
     'import/lines_nutep/lancer',
