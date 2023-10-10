@@ -110,6 +110,7 @@ list_dirs: tuple = (
     'reference/reference_tnved2',
     'reference/reference_spardeck',
     'reference/reference_morservice_all',
+    'reference/reference_ref',
 
     'RabbitMQ/errors',
     'RabbitMQ/json',
