@@ -3,8 +3,7 @@ import os
 root_directory: str = os.environ.get('LOCAL_ABSOLUTE_PATH_FILES')
 
 list_dirs: tuple = (
-    'export/export_nw/flat_export_nw_tracking',
-    'export/export_nw/flat_export_nw_tracking_update',
+    'export/export_nw/flat_export_nw',
     'export/export_vsk/flat_export_vsk_tracking',
     'export/export_vsk/flat_export_vsk_tracking_update',
     'export/lines_nle/flat_export_nle',
@@ -119,6 +118,8 @@ list_dirs: tuple = (
     'Morservice/done',
     'Morservice/json',
 
-    'auto_tracking'
+    'auto_tracking',
+
+    'DataCore/flat_forecast'
 
 )
